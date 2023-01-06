@@ -23,7 +23,7 @@
       
       function puery1(){
          var i;
-         var input = prompt('住所の一部を入力ししてください','茨城県'); //入力された文字列
+         var input = prompt('住所の一部を入力ししてください','北海道'); //入力された文字列
          var output ='見つかりませんでした'; //検索対象の入れるの大きさ
       for(i = 0; i < zipdb,length; ++i){
          if( zipdb[i]['address'],match(input) ){ //入力がi番のデータと部分一致かどうか判定
@@ -35,7 +35,7 @@
      }
      function puery2(){
       var i;
-      var input = prompt('郵便番号を入力してください','3000814'); //入力された文字列
+      var input = prompt('郵便番号を入力してください','0640941'); //入力された文字列
       var output = '見つかりませんでした'; //検索結果を入れる変数
       var n = zipdb.length; //検索対象の配列の大きさ
       for(i = 0; i < zipdb.length; ++i){
